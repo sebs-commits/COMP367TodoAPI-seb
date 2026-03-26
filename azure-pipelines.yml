@@ -7,8 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
-  name: COMP367-Wins
+  name: Test Agent Pool
 
 variables:
   solution: '**/*.sln'
